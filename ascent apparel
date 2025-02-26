@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ascent Apparel</title>
+    <style>
+        body {
+            background-color: #111;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .hero {
+            padding: 50px;
+            background-color: #222;
+        }
+        .hero img {
+            max-width: 100%;
+            height: auto;
+        }
+        .shop {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 40px;
+        }
+        .product {
+            background: #333;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .footer {
+            background: #000;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>Ascent Apparel</header>
+    
+    <section class="hero">
+        <h1>Built to Rise</h1>
+        <img src="/path-to-your-tshirt-image.png" alt="Ascent Apparel T-Shirt">
+    </section>
+    
+    <section class="shop">
+        <div class="product">
+            <h2>Black T-Shirt</h2>
+            <p>$29.99</p>
+            <button>Buy Now</button>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <p>Contact us at: support@ascentapparel.com</p>
+    </footer>
+</body>
+</html>
